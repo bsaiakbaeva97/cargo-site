@@ -172,6 +172,35 @@ nav a:hover {
 }
 
 
+/* HERO IMAGE */
+.hero-image {
+  margin-top: 28px;
+}
+
+.hero-image img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0,0,0,.15);
+  object-fit: cover;
+  display: block;
+}
+
+/* GALLERY */
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+    margin-top: 30px;
+}
+
+.gallery img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:16px;
+}
+
+
 /* HERO CARD */
 
 .hero-card {
